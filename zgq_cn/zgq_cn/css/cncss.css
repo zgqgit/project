@@ -1,0 +1,93 @@
+
+    body,ul,li,h1,h2,h3,h4,h5,h6,p,dl,dt,dd{margin: 0;padding: 0;}
+    body ul li{list-style: none;}
+    body a{text-decoration: none;}
+    body{background: url("../images/boxbg.png") repeat-x;}
+    img{border: none;}
+
+    .cn{width: 983px;margin: 0 auto;}
+
+    .cnhd{height:104px;background: url("../images/cnhdbg.png") no-repeat;overflow: hidden;}
+    .cnhd ul{margin: 20px 0 0 780px;}
+    .cnhd ul li{color:#44B944;float: left;}
+    .cnhd ul li a{margin: 0 10px 0 5px;color:#44B944;}
+    .cnhd ul li a:hover{color:blue;}
+    .cnhd >a{width:285px;height:37px;margin:45px 0 0 695px;display: block;}
+
+    .cnnav{height:41px;background: url("../images/cnnav.png") no-repeat;}
+    .cnnav ul{margin-left: 10px;}
+    .cnnav ul li{width: 108px;height: 47px;text-align:center;line-height:47px;float: left;}
+    .cnnav ul li a{width: 108px;height: 47px;color: #FFFFFF;display:block;font-family:"微软雅黑";font-size:16px;}
+    .cnnav ul li a:hover{width:119px;margin-top:-6px;background: url("../images/cnnavc.png") no-repeat;}
+
+    .cnshow{height:354px;clear: both;}
+    .cnshow #showu,#showd{margin-top: 170px;border: none;z-index: 9999;position: absolute;display: none;}
+    .cnshow #showu{margin-left: 0px;}
+    .cnshow #showd{margin-left: 935px;}
+    .cnshow ul li{position: absolute;display: none;}
+    .cnshow ul .cnshow2{display: block;}
+    .cnshow span{width: 50%;height:354px;float: left;position: relative;background: red;filter:alpha(opacity:0);opacity: 0;}
+
+    .cnlogin{width: 983px;height: 60px;margin:0 auto;overflow: hidden;background: url("../images/cnlogin.png") no-repeat;position:relative;clear: both;}
+    .cnlogin p{height:25px;margin:17px 0 0 20px;overflow:hidden;float:left;display: inline-block;}
+    .cnlogin p img{vertical-align:middle;border: none;}
+    .cnlogin p input{margin:0;padding:0;vertical-align:middle;line-height:24px;border: none;}
+    .cnlogin p a{vertical-align: middle;}
+    .cnlogin p .loginusr{width:141px;height: 24px;color:#C6C6C6;background: url("../images/loginuser.png") no-repeat;}
+    .cnlogin p .loginpwd{width:141px;height: 24px;padding-left:30px;background: url("../images/loginpwd.png") no-repeat;}
+    .cnlogin p .loginbtn{width: 45px;height: 24px;margin:0 3px 0 -15px;background: url("../images/loginbtn.png") no-repeat;}
+    .cnlogin dl{height:16px;width: 260px;color:#178C17;position: absolute;left:960px;top:22px;}
+    .cnlogin dl dt{float: left;}
+    .cnlogin dl dd{margin-left:8px;line-height:16px;float: left;font-size: 12px;}
+    .cnlogin a{color: black;}
+    .cnlogin a:hover{color: orange;}
+
+    .reg{width: 230px;height: 140px;background:#F4F3EF;display:none;position: fixed;top:50%;left:50%;z-index: 999;}
+    .reg ul h{height:35px;color:#998D75;border-bottom:1px solid #DCD6C7;line-height:35px;text-indent:10px;background:#EBE3CE;display: block;}
+    .reg ul h #regclo{margin-left:130px;color:#998D75;background:#EBE3CE;font-size:16px;display:inline-block;border:none;}
+    .reg ul li{margin-top: 10px;text-indent:10px;}
+    .reg ul li .regbtn1{margin-left: 50px;border:none;border-radius:3px;background: #D1725D;}
+    .reg ul li .regbtn2{margin-left: 30px;border:none;border-radius:3px;background: #D1725D;}
+
+    .cnmain{background: url("../images/cnmainbg.png") no-repeat;}
+    .cnmain .cnpro{width: 305px;float: left;}
+    .cnmain .cnpro p{padding-top:25px;color: #8A8A8A;}
+    .cnmain .cnpro p span{width:80px;height:54px;margin-right:5px;color:white;text-align:center;line-height:36px;background:url("../images/cnpbg.png") no-repeat;display: inline-block;}
+    .cnmain .cnpro p a{width: 44px;height: 13px;margin:10px 15px 0 0;color:#8A8A8A;font-size:11px;line-height:13px;text-align:center;border:1px solid #BABABA;border-radius:3px;float: right;}
+    .cnmain ,cnpro ul{line-height:22px;font-size: 12px;color: #6C6C6C;}
+    .cnmain .cnpro ul li{margin-top: 10px;}
+    .cnmain .cnpro ul li span{width:150px;margin:10px 10px 0 0;text-indent:1em;float: right;}
+    .cnmain .cnnews{width: 405px;float: left;}
+    .cnmain .cnnews p{padding-top:25px;color: #8A8A8A;}
+    .cnmain .cnnews p span{width:80px;height:54px;margin-right:5px;color:white;text-align:center;line-height:36px;background:url("../images/cnpbg.png") no-repeat;display: inline-block;}
+    .cnmain .cnnews p a{width: 44px;height: 13px;margin:10px 15px 0 0;color:#8A8A8A;font-size:11px;line-height:13px;text-align:center;border:1px solid #BABABA;border-radius:3px;float: right;}
+    .cnmain .cnnews ul{font-size: 12px;color: #6C6C6C;}
+    .cnmain .cnnews ul .l1{margin:15px 0 0 10px;}
+    .cnmain .cnnews ul .l1 span{width: 230px;margin:10px 20px 0 0;color:#A8A8A8;float: right;line-height: 22px;}
+    .cnmain .cnnews ul .l1 span strong{color:#50B540;display: block;}
+    .cnmain .cnnews ul .l1 span a{color:#50B540;}
+    .cnmain .cnnews ul li{margin:10px 0 0 20px;color: #A8A8A8;}
+    .cnmain .cnnews ul li span{margin-left: 70px;}
+    .cnmain .cnnews ul li a{color: #6C6C6C;}
+    .cnmain .cnnews ul li a:hover{color:orange;}
+    .cnmain .cncon{width: 270px;float: left;}
+    .cnmain .cncon p{padding-top:25px;color: #8A8A8A;}
+    .cnmain .cncon p span{width:80px;height:54px;margin-right:5px;color:white;text-align:center;line-height:36px;background:url("../images/cnpbg.png") no-repeat;display: inline-block;}
+    .cnmain .cncon p a{width: 44px;height: 13px;margin:10px 15px 0 0;color:#8A8A8A;font-size:11px;line-height:13px;text-align:center;border:1px solid #BABABA;border-radius:3px;float: right;}
+    .cnmain .cncon ul{margin: 10px 0 0 20px;}
+    .cnmain .cncon ul li{margin-bottom: 15px;}
+    .cnmain .cncon ul li img{margin-right: 10px;}
+    .cnmain .cndisplay{height:245px;position:relative;overflow:hidden;clear: both;}
+    .cnmain .cndisplay p span{width: 794px;height: 1px;margin:-15px 0 0 115px;display:block;border-top:1px solid #E8E8E8;border-bottom:1px solid #E8E8E8; }
+    .cnmain .cndisplay p .disbtnl{margin:-15px 0 0 920px;border: none;display: block;}
+    .cnmain .cndisplay p .disbtnr{margin:-25px 0 0 955px;border: none;display: block;}
+    .cnmain .cndisplay ul{width:1500px;margin:30px auto 0 auto; position: absolute;}
+    .cnmain .cndisplay ul li{width:175px;margin-left:20px;text-align:center;line-height:40px;float: left;}
+
+    .foot{background: url("../images/footbg.png") repeat-x;}
+    .foot .cnfoot{width:983px;margin:0 auto;color:white;text-align: center;background: url("../images/cnfootbg.png") no-repeat;}
+    .foot .cnfoot .footup{margin-top:20px;display: inline-block;}
+    .foot .cnfoot .footdown{margin:20px 0 15px 0;display: inline-block;}
+    .foot .cnfoot ul li{margin-right:20px;float: left;}
+    .foot .cnfoot ul li a{color: white;}
+    .foot .cnfoot ul li a:hover{color: orange;}
